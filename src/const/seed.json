@@ -1,0 +1,2172 @@
+[
+  {
+    "customer": [
+      {
+        "id": "33b64f9c-dd82-4242-9de9-d7387d46dbb0",
+        "first_name": "Alex",
+        "last_name": "Smith",
+        "email": "alex.smith@example.com",
+        "created_at": "2023-09-12T10:43:11.298Z",
+        "updated_at": "2023-09-12T18:29:14.423Z"
+      },
+      {
+        "id": "5eabf1bb-71d7-4a27-9147-85e0eeb3eb9c",
+        "first_name": "Emma",
+        "last_name": "Johnson",
+        "email": "emma.johnson@example.com",
+        "created_at": "2023-09-12T22:55:56.946Z",
+        "updated_at": "2023-09-13T02:15:33.020Z"
+      },
+      {
+        "id": "61c08129-5d1f-446b-bf34-9dd7a8384cfd",
+        "first_name": "Oliver",
+        "last_name": "Brown",
+        "email": "oliver.brown@example.com",
+        "created_at": "2023-09-13T04:05:42.052Z",
+        "updated_at": "2023-09-13T07:49:38.854Z"
+      },
+      {
+        "id": "f4bd6af8-aca9-4fff-90ed-b09c947a7c66",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "email": "sophia.wilson@example.com",
+        "created_at": "2023-09-13T09:47:03.204Z",
+        "updated_at": "2023-09-12T16:21:10.917Z"
+      },
+      {
+        "id": "710e9f0b-ed11-45c6-a096-4499c663b175",
+        "first_name": "William",
+        "last_name": "Davis",
+        "email": "william.davis@example.com",
+        "created_at": "2023-09-12T22:09:07.119Z",
+        "updated_at": "2023-09-12T12:16:03.562Z"
+      }
+    ],
+    "ad_platform": [
+      {
+        "id": "ef659bf5-4974-4aea-bb7b-5e536ceec15a",
+        "name": "Google Ads",
+        "created_at": "2023-09-13T02:24:53.994Z",
+        "updated_at": "2023-09-13T03:31:11.025Z"
+      },
+      {
+        "id": "1d6a3329-9e89-41ba-9bb4-e38b0a68ade0",
+        "name": "Facebook Ads",
+        "created_at": "2023-09-12T12:52:39.542Z",
+        "updated_at": "2023-09-12T21:16:25.410Z"
+      },
+      {
+        "id": "c6a5947b-c07f-43c1-9666-6d34a662465b",
+        "name": "Instagram Ads",
+        "created_at": "2023-09-12T14:01:21.978Z",
+        "updated_at": "2023-09-12T11:04:13.740Z"
+      },
+      {
+        "id": "3386142c-4b5f-473c-ba1d-a0e03546a71a",
+        "name": "LinkedIn Ads",
+        "created_at": "2023-09-12T16:48:38.332Z",
+        "updated_at": "2023-09-12T23:35:40.499Z"
+      },
+      {
+        "id": "4f969e8b-979a-4072-abf0-6ebc793b7219",
+        "name": "Twitter Ads",
+        "created_at": "2023-09-13T07:57:56.119Z",
+        "updated_at": "2023-09-12T13:36:50.582Z"
+      }
+    ],
+    "ad_campaign": [
+      {
+        "id": "fc66f20c-5fa7-4120-a8ed-6e894079be05",
+        "name": "Summer Sale",
+        "start_date": "2023-09-12T19:31:30.646Z",
+        "end_date": "2023-09-13T08:27:12.193Z",
+        "created_at": "2023-09-13T00:32:33.538Z",
+        "updated_at": "2023-09-13T00:43:15.030Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "ef659bf5-4974-4aea-bb7b-5e536ceec15a"
+      },
+      {
+        "id": "760e3324-887a-43f3-b599-f3ad752a668f",
+        "name": "Back to School",
+        "start_date": "2023-09-12T11:46:36.333Z",
+        "end_date": "2023-09-12T12:53:48.436Z",
+        "created_at": "2023-09-13T08:04:18.608Z",
+        "updated_at": "2023-09-12T21:12:34.696Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "c6a5947b-c07f-43c1-9666-6d34a662465b"
+      },
+      {
+        "id": "58c5e4e9-616e-4b44-be50-9f68110e5efd",
+        "name": "Holiday Season",
+        "start_date": "2023-09-13T09:28:38.753Z",
+        "end_date": "2023-09-12T12:47:20.138Z",
+        "created_at": "2023-09-12T19:36:46.932Z",
+        "updated_at": "2023-09-12T22:25:27.173Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "3386142c-4b5f-473c-ba1d-a0e03546a71a"
+      },
+      {
+        "id": "2cc98750-9a13-44d2-ae74-340f5e1efad9",
+        "name": "New Year Promotion",
+        "start_date": "2023-09-13T07:35:43.249Z",
+        "end_date": "2023-09-12T16:32:43.126Z",
+        "created_at": "2023-09-12T23:13:16.783Z",
+        "updated_at": "2023-09-13T04:02:10.963Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "4f969e8b-979a-4072-abf0-6ebc793b7219"
+      },
+      {
+        "id": "e5e073b4-5d89-4bd7-a060-c7f4660e7d9b",
+        "name": "Spring Collection",
+        "start_date": "2023-09-12T13:34:08.528Z",
+        "end_date": "2023-09-13T03:10:13.610Z",
+        "created_at": "2023-09-12T14:36:01.028Z",
+        "updated_at": "2023-09-12T19:44:50.710Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "4f969e8b-979a-4072-abf0-6ebc793b7219"
+      }
+    ],
+    "customer_ad_view": [
+      {
+        "id": "198c8636-d4eb-49ec-853c-543afcfdcc70",
+        "view_date": "2023-09-13T07:59:33.267Z",
+        "created_at": "2023-09-13T02:39:03.366Z",
+        "updated_at": "2023-09-12T16:26:41.091Z",
+        "ad_campaign_id": "2cc98750-9a13-44d2-ae74-340f5e1efad9",
+        "customer_id": "33b64f9c-dd82-4242-9de9-d7387d46dbb0"
+      },
+      {
+        "id": "f13e6d76-5954-44a0-b7bb-6da505b4f96f",
+        "view_date": "2023-09-12T12:57:15.968Z",
+        "created_at": "2023-09-12T22:20:54.444Z",
+        "updated_at": "2023-09-12T15:19:36.979Z",
+        "ad_campaign_id": "760e3324-887a-43f3-b599-f3ad752a668f",
+        "customer_id": "5eabf1bb-71d7-4a27-9147-85e0eeb3eb9c"
+      },
+      {
+        "id": "ec768c4c-615d-4d37-b0b9-11e813baceb7",
+        "view_date": "2023-09-12T12:53:31.030Z",
+        "created_at": "2023-09-12T12:54:53.066Z",
+        "updated_at": "2023-09-13T03:57:16.674Z",
+        "ad_campaign_id": "2cc98750-9a13-44d2-ae74-340f5e1efad9",
+        "customer_id": "5eabf1bb-71d7-4a27-9147-85e0eeb3eb9c"
+      },
+      {
+        "id": "1a03a420-967e-4ac1-9260-8f8388e97560",
+        "view_date": "2023-09-12T12:16:04.717Z",
+        "created_at": "2023-09-13T09:28:09.297Z",
+        "updated_at": "2023-09-12T23:51:42.280Z",
+        "ad_campaign_id": "e5e073b4-5d89-4bd7-a060-c7f4660e7d9b",
+        "customer_id": "f4bd6af8-aca9-4fff-90ed-b09c947a7c66"
+      },
+      {
+        "id": "6fb1ab84-ef08-496e-abc8-9b9e2c299d9e",
+        "view_date": "2023-09-13T07:13:33.570Z",
+        "created_at": "2023-09-13T04:50:12.800Z",
+        "updated_at": "2023-09-12T20:58:32.939Z",
+        "ad_campaign_id": "2cc98750-9a13-44d2-ae74-340f5e1efad9",
+        "customer_id": "5eabf1bb-71d7-4a27-9147-85e0eeb3eb9c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0aeee358-79d1-4a96-8212-54705fc424da",
+        "email": "Emmalee.Bruen@yahoo.com",
+        "firstName": "Rigoberto",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1219.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "afa14a6f-98f2-4023-a1a9-5d5214399f27",
+        "email": "Grayson_Swaniawski@yahoo.com",
+        "firstName": "Aniyah",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/509.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "74f0e464-67f6-448f-b7ad-de388e3bcac9",
+        "email": "Irving.Altenwerth72@gmail.com",
+        "firstName": "Cristopher",
+        "lastName": "Grady",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72182610",
+        "tenantId": null
+      },
+      {
+        "reference": "69c711e4-8eb7-4958-a981-d328ec0ce4cd",
+        "email": "Luciano.Torp@gmail.com",
+        "firstName": "Johan",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70378192",
+        "tenantId": null
+      },
+      {
+        "reference": "4335ba7d-cfdc-4b8f-9525-d06a5ebdc0b9",
+        "email": "Raymundo.Bradtke10@gmail.com",
+        "firstName": "Alessandra",
+        "lastName": "Grimes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/789.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "a89f3b4d-34bf-4576-b088-c4beae5dee83",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "email": "alice.johnson@example.com",
+        "created_at": "2023-09-12T11:56:05.944Z",
+        "updated_at": "2023-09-13T05:31:55.891Z"
+      },
+      {
+        "id": "9a134f98-8f82-43ec-b3e2-ff042b85091d",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "email": "bob.smith@example.com",
+        "created_at": "2023-09-13T06:00:07.856Z",
+        "updated_at": "2023-09-13T05:49:58.626Z"
+      },
+      {
+        "id": "1d2b88b1-c935-475c-b1c8-e7ec8e01ddc1",
+        "first_name": "Eve",
+        "last_name": "Brown",
+        "email": "eve.brown@example.com",
+        "created_at": "2023-09-12T21:52:27.899Z",
+        "updated_at": "2023-09-12T14:53:43.487Z"
+      },
+      {
+        "id": "ca56c769-c0e9-49e1-8462-1217ca0a89f7",
+        "first_name": "Charlie",
+        "last_name": "Jones",
+        "email": "charlie.jones@example.com",
+        "created_at": "2023-09-12T10:52:52.766Z",
+        "updated_at": "2023-09-13T01:31:27.798Z"
+      },
+      {
+        "id": "db413596-b227-486e-b458-147c17417f0b",
+        "first_name": "Grace",
+        "last_name": "Wilson",
+        "email": "grace.wilson@example.com",
+        "created_at": "2023-09-13T00:00:43.477Z",
+        "updated_at": "2023-09-12T18:42:42.883Z"
+      }
+    ],
+    "ad_platform": [
+      {
+        "id": "a8491056-31cc-4ae8-8894-bf5414ced78f",
+        "name": "Google Ads",
+        "created_at": "2023-09-13T05:30:51.280Z",
+        "updated_at": "2023-09-13T02:55:07.174Z"
+      },
+      {
+        "id": "b27b48cb-5b26-4db8-9df4-825aebf07927",
+        "name": "Facebook Ads",
+        "created_at": "2023-09-13T03:50:36.488Z",
+        "updated_at": "2023-09-13T02:55:19.410Z"
+      },
+      {
+        "id": "5ce2efdf-037a-4aef-9f49-6592e0987af7",
+        "name": "Instagram Ads",
+        "created_at": "2023-09-12T23:03:10.716Z",
+        "updated_at": "2023-09-13T03:29:57.707Z"
+      },
+      {
+        "id": "df4f4b11-689e-4e41-b627-fdb45cf294c1",
+        "name": "LinkedIn Ads",
+        "created_at": "2023-09-12T22:48:45.728Z",
+        "updated_at": "2023-09-12T13:33:58.255Z"
+      },
+      {
+        "id": "2672473f-5b81-42c5-b2fb-f18b4385fb53",
+        "name": "Twitter Ads",
+        "created_at": "2023-09-12T23:07:12.195Z",
+        "updated_at": "2023-09-12T12:01:52.427Z"
+      }
+    ],
+    "ad_campaign": [
+      {
+        "id": "a51c4f52-7763-4db5-ab91-733d9000633c",
+        "name": "Summer Sale",
+        "start_date": "2023-09-12T12:58:13.336Z",
+        "end_date": "2023-09-13T02:16:35.463Z",
+        "created_at": "2023-09-12T23:56:19.533Z",
+        "updated_at": "2023-09-12T14:10:10.096Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "b27b48cb-5b26-4db8-9df4-825aebf07927"
+      },
+      {
+        "id": "b1dace70-7f29-44be-ba23-6a6107f5f8f3",
+        "name": "Holiday Promotion",
+        "start_date": "2023-09-12T13:22:46.631Z",
+        "end_date": "2023-09-12T19:40:15.967Z",
+        "created_at": "2023-09-13T05:14:43.512Z",
+        "updated_at": "2023-09-13T04:33:17.811Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "b27b48cb-5b26-4db8-9df4-825aebf07927"
+      },
+      {
+        "id": "ffdd6df6-449c-40ae-8f50-9ee45374e9d9",
+        "name": "New Product Launch",
+        "start_date": "2023-09-12T12:56:51.674Z",
+        "end_date": "2023-09-13T07:10:39.585Z",
+        "created_at": "2023-09-13T06:15:49.788Z",
+        "updated_at": "2023-09-12T11:25:01.951Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "5ce2efdf-037a-4aef-9f49-6592e0987af7"
+      },
+      {
+        "id": "187f64ce-2ac8-4c37-b72e-094c8085e32d",
+        "name": "Back to School",
+        "start_date": "2023-09-13T04:33:11.394Z",
+        "end_date": "2023-09-12T23:45:01.969Z",
+        "created_at": "2023-09-12T15:25:33.218Z",
+        "updated_at": "2023-09-12T10:43:22.183Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "5ce2efdf-037a-4aef-9f49-6592e0987af7"
+      },
+      {
+        "id": "1cf1c0bf-86e1-4e36-be81-a76e538b0976",
+        "name": "End of Year Clearance",
+        "start_date": "2023-09-12T18:28:44.847Z",
+        "end_date": "2023-09-12T12:04:01.486Z",
+        "created_at": "2023-09-13T08:33:52.511Z",
+        "updated_at": "2023-09-12T20:38:46.182Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "df4f4b11-689e-4e41-b627-fdb45cf294c1"
+      }
+    ],
+    "customer_ad_view": [
+      {
+        "id": "64ae6a26-b5bf-44a6-a7d0-b68472e8ff39",
+        "view_date": "2023-09-13T05:50:31.475Z",
+        "created_at": "2023-09-12T17:23:52.106Z",
+        "updated_at": "2023-09-12T19:10:35.009Z",
+        "ad_campaign_id": "b1dace70-7f29-44be-ba23-6a6107f5f8f3",
+        "customer_id": "9a134f98-8f82-43ec-b3e2-ff042b85091d"
+      },
+      {
+        "id": "b6c0c329-749c-40c9-b8dd-f7b8c1b60ec1",
+        "view_date": "2023-09-13T04:25:56.651Z",
+        "created_at": "2023-09-13T01:28:10.090Z",
+        "updated_at": "2023-09-13T09:09:16.117Z",
+        "ad_campaign_id": "b1dace70-7f29-44be-ba23-6a6107f5f8f3",
+        "customer_id": "a89f3b4d-34bf-4576-b088-c4beae5dee83"
+      },
+      {
+        "id": "44365332-72cb-4048-8160-755e87a7692c",
+        "view_date": "2023-09-13T04:03:54.486Z",
+        "created_at": "2023-09-12T19:12:58.865Z",
+        "updated_at": "2023-09-13T03:07:45.367Z",
+        "ad_campaign_id": "187f64ce-2ac8-4c37-b72e-094c8085e32d",
+        "customer_id": "ca56c769-c0e9-49e1-8462-1217ca0a89f7"
+      },
+      {
+        "id": "90ecd19d-9ddb-4cad-abfb-bd9b539c9515",
+        "view_date": "2023-09-13T07:59:18.744Z",
+        "created_at": "2023-09-13T08:47:30.887Z",
+        "updated_at": "2023-09-12T22:30:03.436Z",
+        "ad_campaign_id": "b1dace70-7f29-44be-ba23-6a6107f5f8f3",
+        "customer_id": "db413596-b227-486e-b458-147c17417f0b"
+      },
+      {
+        "id": "3095703d-5081-4a36-ba2d-e0905d2eef9a",
+        "view_date": "2023-09-12T23:17:46.016Z",
+        "created_at": "2023-09-12T22:59:57.353Z",
+        "updated_at": "2023-09-13T08:08:47.568Z",
+        "ad_campaign_id": "1cf1c0bf-86e1-4e36-be81-a76e538b0976",
+        "customer_id": "a89f3b4d-34bf-4576-b088-c4beae5dee83"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "939fb36f-63b0-438d-9ded-2da2a2ab9154",
+        "email": "Beryl_Hermiston@yahoo.com",
+        "firstName": "Darien",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30844174",
+        "tenantId": null
+      },
+      {
+        "reference": "6e4f848c-d7d7-4bef-9cd1-4f31b19ee2d2",
+        "email": "Silas_Welch46@hotmail.com",
+        "firstName": "Jacinthe",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/861.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce06aa42-2a3e-4444-929b-d89544bc33d5",
+        "email": "Zack.Grady@hotmail.com",
+        "firstName": "Elroy",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/208.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e933d0e-ec81-4219-ba41-808c1af4e992",
+        "email": "Juana_Kohler@yahoo.com",
+        "firstName": "Dahlia",
+        "lastName": "Nicolas-Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77090700",
+        "tenantId": null
+      },
+      {
+        "reference": "e432ed30-34c2-4d17-93a0-b73dc37225a0",
+        "email": "Esteban97@gmail.com",
+        "firstName": "Hailee",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/121.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "3a62848b-3d49-43fa-8e0c-dee45c67d47a",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@gmail.com",
+        "created_at": "2023-09-12T10:44:35.818Z",
+        "updated_at": "2023-09-12T17:47:51.578Z"
+      },
+      {
+        "id": "d4c05349-51df-460d-a382-022fe303cef8",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "email": "daniel.anderson@yahoo.com",
+        "created_at": "2023-09-13T00:11:54.083Z",
+        "updated_at": "2023-09-13T08:18:11.809Z"
+      },
+      {
+        "id": "7b7a1ba4-ce3b-47cd-82a3-c67939095060",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "email": "olivia.williams@hotmail.com",
+        "created_at": "2023-09-12T14:42:42.441Z",
+        "updated_at": "2023-09-12T13:35:57.816Z"
+      },
+      {
+        "id": "ca293f28-1c24-4914-87d1-7f5ffb10e7a9",
+        "first_name": "Matthew",
+        "last_name": "Jones",
+        "email": "matthew.jones@gmail.com",
+        "created_at": "2023-09-12T20:22:39.964Z",
+        "updated_at": "2023-09-12T22:23:12.599Z"
+      },
+      {
+        "id": "9877d404-5faf-4344-a3f1-ab206fe5937a",
+        "first_name": "Sophia",
+        "last_name": "Brown",
+        "email": "sophia.brown@yahoo.com",
+        "created_at": "2023-09-12T20:59:20.568Z",
+        "updated_at": "2023-09-12T19:55:18.193Z"
+      }
+    ],
+    "ad_platform": [
+      {
+        "id": "9460e15e-faed-4169-9925-4e6bd8dd6fc9",
+        "name": "Google Ads",
+        "created_at": "2023-09-13T08:33:28.871Z",
+        "updated_at": "2023-09-12T11:36:07.937Z"
+      },
+      {
+        "id": "40591560-6b11-4294-8253-ce024cbe5e79",
+        "name": "Facebook Ads",
+        "created_at": "2023-09-13T07:01:46.555Z",
+        "updated_at": "2023-09-12T15:36:15.375Z"
+      },
+      {
+        "id": "5fd83550-055c-4a64-902e-412699b46bc8",
+        "name": "Instagram Ads",
+        "created_at": "2023-09-13T06:19:55.204Z",
+        "updated_at": "2023-09-13T08:02:17.099Z"
+      },
+      {
+        "id": "969ce3e4-ad01-42c7-a013-2d4c73b02b42",
+        "name": "Twitter Ads",
+        "created_at": "2023-09-13T04:46:06.418Z",
+        "updated_at": "2023-09-13T07:27:16.316Z"
+      },
+      {
+        "id": "6ad9928a-a3a4-4af2-94d0-189e05324ddd",
+        "name": "LinkedIn Ads",
+        "created_at": "2023-09-12T17:49:44.792Z",
+        "updated_at": "2023-09-13T00:19:43.737Z"
+      }
+    ],
+    "ad_campaign": [
+      {
+        "id": "961e9501-ec9b-44b2-8cc5-dd7548c8c50f",
+        "name": "Summer Sale",
+        "start_date": "2023-09-12T20:52:17.605Z",
+        "end_date": "2023-09-13T03:06:06.247Z",
+        "created_at": "2023-09-12T19:46:02.301Z",
+        "updated_at": "2023-09-13T00:09:11.948Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "969ce3e4-ad01-42c7-a013-2d4c73b02b42"
+      },
+      {
+        "id": "038d9436-b430-40b4-a83e-ef7717ddfe9e",
+        "name": "Holiday Special",
+        "start_date": "2023-09-13T04:08:04.510Z",
+        "end_date": "2023-09-12T11:50:01.767Z",
+        "created_at": "2023-09-13T01:36:30.551Z",
+        "updated_at": "2023-09-12T14:24:56.092Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "40591560-6b11-4294-8253-ce024cbe5e79"
+      },
+      {
+        "id": "7eaefb70-714c-4795-9271-7ba37f0091f3",
+        "name": "New Product Launch",
+        "start_date": "2023-09-13T06:44:15.510Z",
+        "end_date": "2023-09-12T19:28:04.863Z",
+        "created_at": "2023-09-12T11:49:36.843Z",
+        "updated_at": "2023-09-12T21:56:40.841Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "969ce3e4-ad01-42c7-a013-2d4c73b02b42"
+      },
+      {
+        "id": "708ea8f2-4c0b-49a9-a8f7-8b2aee56e138",
+        "name": "Flash Sale",
+        "start_date": "2023-09-12T20:44:14.591Z",
+        "end_date": "2023-09-13T00:37:20.218Z",
+        "created_at": "2023-09-13T09:03:49.040Z",
+        "updated_at": "2023-09-12T22:21:00.164Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "6ad9928a-a3a4-4af2-94d0-189e05324ddd"
+      },
+      {
+        "id": "ca579509-1110-4b8e-b506-fef367b7860f",
+        "name": "Limited Time Offer",
+        "start_date": "2023-09-12T11:17:13.236Z",
+        "end_date": "2023-09-13T05:40:48.597Z",
+        "created_at": "2023-09-12T19:50:20.522Z",
+        "updated_at": "2023-09-12T19:52:00.218Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "5fd83550-055c-4a64-902e-412699b46bc8"
+      }
+    ],
+    "customer_ad_view": [
+      {
+        "id": "753d4878-44a3-4794-9c2b-0a124ed2d5ee",
+        "view_date": "2023-09-12T20:59:50.173Z",
+        "created_at": "2023-09-13T00:04:19.237Z",
+        "updated_at": "2023-09-12T20:27:40.759Z",
+        "ad_campaign_id": "7eaefb70-714c-4795-9271-7ba37f0091f3",
+        "customer_id": "3a62848b-3d49-43fa-8e0c-dee45c67d47a"
+      },
+      {
+        "id": "79ea70ca-84a3-4421-8abd-87f37e05b998",
+        "view_date": "2023-09-12T20:15:57.321Z",
+        "created_at": "2023-09-12T12:30:24.216Z",
+        "updated_at": "2023-09-12T14:00:20.841Z",
+        "ad_campaign_id": "961e9501-ec9b-44b2-8cc5-dd7548c8c50f",
+        "customer_id": "d4c05349-51df-460d-a382-022fe303cef8"
+      },
+      {
+        "id": "3d2f5a94-2921-415a-827e-e4c9f634b078",
+        "view_date": "2023-09-12T15:17:30.283Z",
+        "created_at": "2023-09-12T11:56:28.020Z",
+        "updated_at": "2023-09-13T09:10:19.020Z",
+        "ad_campaign_id": "961e9501-ec9b-44b2-8cc5-dd7548c8c50f",
+        "customer_id": "d4c05349-51df-460d-a382-022fe303cef8"
+      },
+      {
+        "id": "40c5480b-f6ac-4c54-9062-cdc9c3f8cb17",
+        "view_date": "2023-09-13T09:38:17.417Z",
+        "created_at": "2023-09-12T22:22:33.186Z",
+        "updated_at": "2023-09-13T04:01:57.779Z",
+        "ad_campaign_id": "708ea8f2-4c0b-49a9-a8f7-8b2aee56e138",
+        "customer_id": "7b7a1ba4-ce3b-47cd-82a3-c67939095060"
+      },
+      {
+        "id": "101c5f36-75c8-4dc0-aac6-e844b403256e",
+        "view_date": "2023-09-13T09:32:48.613Z",
+        "created_at": "2023-09-12T12:00:33.807Z",
+        "updated_at": "2023-09-13T08:52:50.812Z",
+        "ad_campaign_id": "7eaefb70-714c-4795-9271-7ba37f0091f3",
+        "customer_id": "d4c05349-51df-460d-a382-022fe303cef8"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a2f72923-4c44-4473-ad72-addd3e9e8c59",
+        "email": "Minnie.Denesik-Ziemann@yahoo.com",
+        "firstName": "Raleigh",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/558.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bb56c57f-bef3-4ea9-802a-780f639031fd",
+        "email": "Earline.Ryan51@gmail.com",
+        "firstName": "Santa",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73067368",
+        "tenantId": null
+      },
+      {
+        "reference": "09b2357e-5146-4bfd-8ca1-3939d319cacb",
+        "email": "Jarod40@gmail.com",
+        "firstName": "Lilliana",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38076275",
+        "tenantId": null
+      },
+      {
+        "reference": "77617fc9-093a-4cf9-a285-d658e1455c7a",
+        "email": "Omari61@hotmail.com",
+        "firstName": "Stephanie",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/532.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5e1beb34-40a3-4fe9-a9c6-04eee4bbe304",
+        "email": "Ryley_Schumm@gmail.com",
+        "firstName": "Lorenzo",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/568.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "a515042a-c21d-4d95-b978-6fbdf75a3217",
+        "first_name": "Alex",
+        "last_name": "Johnson",
+        "email": "alex.johnson@example.com",
+        "created_at": "2023-09-13T04:55:54.518Z",
+        "updated_at": "2023-09-12T12:28:45.381Z"
+      },
+      {
+        "id": "55b70325-d15f-4cac-b28f-9cf6d49a9a1b",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "email": "emily.anderson@example.com",
+        "created_at": "2023-09-12T10:58:11.763Z",
+        "updated_at": "2023-09-12T10:46:05.653Z"
+      },
+      {
+        "id": "789282ff-2fb3-4ee7-99eb-31393b150292",
+        "first_name": "Daniel",
+        "last_name": "Thompson",
+        "email": "daniel.thompson@example.com",
+        "created_at": "2023-09-12T10:40:55.424Z",
+        "updated_at": "2023-09-13T07:58:35.202Z"
+      },
+      {
+        "id": "7138435a-2404-4be0-9664-714807f2e825",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "email": "olivia.williams@example.com",
+        "created_at": "2023-09-13T09:38:35.941Z",
+        "updated_at": "2023-09-12T16:52:25.989Z"
+      },
+      {
+        "id": "e2fd65b1-6062-4b65-a9be-d0abe001b9c1",
+        "first_name": "Sophia",
+        "last_name": "Brown",
+        "email": "sophia.brown@example.com",
+        "created_at": "2023-09-12T22:16:31.456Z",
+        "updated_at": "2023-09-13T07:54:07.601Z"
+      }
+    ],
+    "ad_platform": [
+      {
+        "id": "73099e9e-fda7-4d8f-9a8f-85d511e0094d",
+        "name": "Facebook Ads",
+        "created_at": "2023-09-13T03:45:50.440Z",
+        "updated_at": "2023-09-12T11:24:06.777Z"
+      },
+      {
+        "id": "3e7267cb-13c4-4708-98bd-bea1bb817eb7",
+        "name": "Google Ads",
+        "created_at": "2023-09-13T04:26:25.319Z",
+        "updated_at": "2023-09-12T18:39:47.667Z"
+      },
+      {
+        "id": "c20bd717-d48a-419b-87d7-dbab8ae3bd8a",
+        "name": "Instagram Ads",
+        "created_at": "2023-09-13T00:59:33.275Z",
+        "updated_at": "2023-09-12T13:15:27.155Z"
+      },
+      {
+        "id": "0aaf0646-87db-4263-b156-e54f698bd54b",
+        "name": "LinkedIn Ads",
+        "created_at": "2023-09-12T23:52:39.400Z",
+        "updated_at": "2023-09-12T11:22:43.060Z"
+      },
+      {
+        "id": "b6ade495-8317-46fb-bd4d-52eab4b23c30",
+        "name": "Twitter Ads",
+        "created_at": "2023-09-12T21:00:49.650Z",
+        "updated_at": "2023-09-12T18:50:12.889Z"
+      }
+    ],
+    "ad_campaign": [
+      {
+        "id": "023624fe-0a21-48d5-9a8f-4840a9d29a1a",
+        "name": "Summer Sale",
+        "start_date": "2023-09-12T15:07:01.888Z",
+        "end_date": "2023-09-13T01:09:31.234Z",
+        "created_at": "2023-09-12T18:04:38.397Z",
+        "updated_at": "2023-09-13T05:16:54.865Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "73099e9e-fda7-4d8f-9a8f-85d511e0094d"
+      },
+      {
+        "id": "fd510ccc-f53b-4960-9f05-7827873d4416",
+        "name": "Product Launch",
+        "start_date": "2023-09-13T00:33:43.218Z",
+        "end_date": "2023-09-12T11:08:56.370Z",
+        "created_at": "2023-09-13T05:49:08.634Z",
+        "updated_at": "2023-09-12T17:30:15.291Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "c20bd717-d48a-419b-87d7-dbab8ae3bd8a"
+      },
+      {
+        "id": "a515820f-8ac0-456e-97ff-b77f312da332",
+        "name": "Holiday Specials",
+        "start_date": "2023-09-12T23:53:54.535Z",
+        "end_date": "2023-09-12T17:08:09.207Z",
+        "created_at": "2023-09-13T07:31:55.388Z",
+        "updated_at": "2023-09-12T15:15:58.497Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "c20bd717-d48a-419b-87d7-dbab8ae3bd8a"
+      },
+      {
+        "id": "3444e9a1-a4ac-4be9-9ace-a04fe861ef1f",
+        "name": "Brand Awareness",
+        "start_date": "2023-09-13T00:21:58.672Z",
+        "end_date": "2023-09-13T01:06:09.913Z",
+        "created_at": "2023-09-12T12:24:59.463Z",
+        "updated_at": "2023-09-12T21:06:54.342Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "3e7267cb-13c4-4708-98bd-bea1bb817eb7"
+      },
+      {
+        "id": "a3fa9f1d-20f5-4122-aba6-1664f4e3d4cb",
+        "name": "New Collection",
+        "start_date": "2023-09-13T03:35:19.700Z",
+        "end_date": "2023-09-13T04:42:03.859Z",
+        "created_at": "2023-09-12T23:59:42.710Z",
+        "updated_at": "2023-09-13T04:43:41.409Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "73099e9e-fda7-4d8f-9a8f-85d511e0094d"
+      }
+    ],
+    "customer_ad_view": [
+      {
+        "id": "ae635b78-b67d-481a-a82a-bed7b4a5b965",
+        "view_date": "2023-09-13T04:16:13.214Z",
+        "created_at": "2023-09-13T01:05:38.190Z",
+        "updated_at": "2023-09-12T17:00:42.022Z",
+        "ad_campaign_id": "023624fe-0a21-48d5-9a8f-4840a9d29a1a",
+        "customer_id": "a515042a-c21d-4d95-b978-6fbdf75a3217"
+      },
+      {
+        "id": "5d5b1ef5-1e80-46df-acea-ecc116a98b9b",
+        "view_date": "2023-09-12T17:11:35.396Z",
+        "created_at": "2023-09-13T05:53:39.749Z",
+        "updated_at": "2023-09-13T04:01:42.380Z",
+        "ad_campaign_id": "fd510ccc-f53b-4960-9f05-7827873d4416",
+        "customer_id": "7138435a-2404-4be0-9664-714807f2e825"
+      },
+      {
+        "id": "c6514914-ab1e-4aaa-8d6f-333c8c0c08b8",
+        "view_date": "2023-09-12T19:05:32.324Z",
+        "created_at": "2023-09-13T07:19:12.525Z",
+        "updated_at": "2023-09-13T04:53:04.324Z",
+        "ad_campaign_id": "3444e9a1-a4ac-4be9-9ace-a04fe861ef1f",
+        "customer_id": "7138435a-2404-4be0-9664-714807f2e825"
+      },
+      {
+        "id": "60d25e7a-0890-4e3e-b9bf-1a29437def3d",
+        "view_date": "2023-09-13T07:31:00.350Z",
+        "created_at": "2023-09-12T13:22:07.360Z",
+        "updated_at": "2023-09-12T23:49:27.295Z",
+        "ad_campaign_id": "3444e9a1-a4ac-4be9-9ace-a04fe861ef1f",
+        "customer_id": "789282ff-2fb3-4ee7-99eb-31393b150292"
+      },
+      {
+        "id": "8b9d1a5f-6a24-4015-a0e3-e7edb2d0a57d",
+        "view_date": "2023-09-13T04:22:36.608Z",
+        "created_at": "2023-09-12T19:56:13.168Z",
+        "updated_at": "2023-09-12T12:09:41.539Z",
+        "ad_campaign_id": "3444e9a1-a4ac-4be9-9ace-a04fe861ef1f",
+        "customer_id": "55b70325-d15f-4cac-b28f-9cf6d49a9a1b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bc06d795-b6ef-46a8-9524-290382296afd",
+        "email": "Nicholas_Willms@yahoo.com",
+        "firstName": "Miracle",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/202.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f0fa73eb-7ec4-4d5f-8adb-7b2c8bff476a",
+        "email": "Precious.Dibbert@hotmail.com",
+        "firstName": "Spencer",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/977.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "52e8e2dc-2bc6-4e51-ab77-6e8d779f2df8",
+        "email": "Kenneth_Emard@hotmail.com",
+        "firstName": "Fern",
+        "lastName": "Williamson-Adams",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95166884",
+        "tenantId": null
+      },
+      {
+        "reference": "8d48ad21-0aca-48d2-b4e2-8afad6715041",
+        "email": "Bryana.Hodkiewicz77@hotmail.com",
+        "firstName": "Eusebio",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/569.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "416da28f-bb0e-4ab8-a741-81607ca330a6",
+        "email": "Elta.Marks@hotmail.com",
+        "firstName": "Laverna",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44109432",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "708f0f70-f3e6-43d4-9e41-11c3bc314791",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "email": "alice.johnson@example.com",
+        "created_at": "2023-09-13T07:57:20.021Z",
+        "updated_at": "2023-09-13T00:41:30.854Z"
+      },
+      {
+        "id": "fed44ee2-7a83-46de-b459-b82ffedd5880",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "email": "bob.smith@example.com",
+        "created_at": "2023-09-12T12:26:44.856Z",
+        "updated_at": "2023-09-13T09:50:07.567Z"
+      },
+      {
+        "id": "98b23386-50c8-4a10-a8b8-56ff281552a5",
+        "first_name": "Eve",
+        "last_name": "Brown",
+        "email": "eve.brown@example.com",
+        "created_at": "2023-09-12T12:55:25.884Z",
+        "updated_at": "2023-09-13T04:31:50.287Z"
+      },
+      {
+        "id": "eea2f9fa-53f4-49e5-9832-a3b7f65216ad",
+        "first_name": "Charlie",
+        "last_name": "Jones",
+        "email": "charlie.jones@example.com",
+        "created_at": "2023-09-12T12:52:43.857Z",
+        "updated_at": "2023-09-12T17:38:21.473Z"
+      },
+      {
+        "id": "5f077ae4-951a-4c76-82eb-e49c44035b40",
+        "first_name": "Grace",
+        "last_name": "Wilson",
+        "email": "grace.wilson@example.com",
+        "created_at": "2023-09-12T21:57:34.770Z",
+        "updated_at": "2023-09-12T20:25:50.836Z"
+      }
+    ],
+    "ad_platform": [
+      {
+        "id": "5487db08-026b-4e8a-ad7d-6de667bc5a8b",
+        "name": "Google Ads",
+        "created_at": "2023-09-12T15:44:15.853Z",
+        "updated_at": "2023-09-13T04:56:50.320Z"
+      },
+      {
+        "id": "3eeffded-a550-4a0c-a147-26128fb69bdb",
+        "name": "Facebook Ads",
+        "created_at": "2023-09-13T09:20:46.204Z",
+        "updated_at": "2023-09-13T09:21:47.843Z"
+      },
+      {
+        "id": "dbd2fb44-7b08-49a3-984b-9d978e86a546",
+        "name": "Instagram Ads",
+        "created_at": "2023-09-12T20:27:57.841Z",
+        "updated_at": "2023-09-12T17:52:02.132Z"
+      },
+      {
+        "id": "a1a6bc21-4eda-4fdb-9b88-ba4f1e168f4e",
+        "name": "Twitter Ads",
+        "created_at": "2023-09-13T05:39:47.419Z",
+        "updated_at": "2023-09-12T17:17:19.997Z"
+      },
+      {
+        "id": "a2c1b52b-141f-42d3-935c-33b9deef8db8",
+        "name": "LinkedIn Ads",
+        "created_at": "2023-09-13T02:05:40.684Z",
+        "updated_at": "2023-09-12T22:14:13.224Z"
+      }
+    ],
+    "ad_campaign": [
+      {
+        "id": "94fb64ff-db0a-4639-b88e-0b9541e14d46",
+        "name": "Summer Sale",
+        "start_date": "2023-09-12T20:10:28.647Z",
+        "end_date": "2023-09-13T00:05:35.263Z",
+        "created_at": "2023-09-12T23:11:26.986Z",
+        "updated_at": "2023-09-12T21:14:02.914Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "a2c1b52b-141f-42d3-935c-33b9deef8db8"
+      },
+      {
+        "id": "a760e849-bb00-45ff-b18e-2a3bdc832ae0",
+        "name": "Holiday Special",
+        "start_date": "2023-09-13T08:57:52.462Z",
+        "end_date": "2023-09-12T19:58:51.097Z",
+        "created_at": "2023-09-12T22:06:43.441Z",
+        "updated_at": "2023-09-12T22:27:35.981Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "5487db08-026b-4e8a-ad7d-6de667bc5a8b"
+      },
+      {
+        "id": "27d5e760-48f0-4bec-b56f-f2b37890e747",
+        "name": "New Product Launch",
+        "start_date": "2023-09-13T05:30:18.830Z",
+        "end_date": "2023-09-12T23:46:29.767Z",
+        "created_at": "2023-09-12T10:33:53.260Z",
+        "updated_at": "2023-09-13T04:17:53.205Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "5487db08-026b-4e8a-ad7d-6de667bc5a8b"
+      },
+      {
+        "id": "2d0475ab-f464-415b-a5cc-d2a0a8aa136f",
+        "name": "Back to School",
+        "start_date": "2023-09-13T02:36:44.294Z",
+        "end_date": "2023-09-12T10:45:19.722Z",
+        "created_at": "2023-09-12T15:43:20.874Z",
+        "updated_at": "2023-09-12T12:15:28.917Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "a2c1b52b-141f-42d3-935c-33b9deef8db8"
+      },
+      {
+        "id": "32ba33ed-7e38-40f4-adcd-883db86e5dd1",
+        "name": "Black Friday",
+        "start_date": "2023-09-12T10:26:43.819Z",
+        "end_date": "2023-09-13T05:12:16.490Z",
+        "created_at": "2023-09-12T20:27:04.990Z",
+        "updated_at": "2023-09-12T23:20:11.498Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "3eeffded-a550-4a0c-a147-26128fb69bdb"
+      }
+    ],
+    "customer_ad_view": [
+      {
+        "id": "c18e15b6-841b-4b24-8444-06a7d1f52432",
+        "view_date": "2023-09-12T13:54:06.694Z",
+        "created_at": "2023-09-12T12:28:09.976Z",
+        "updated_at": "2023-09-12T12:14:31.290Z",
+        "ad_campaign_id": "2d0475ab-f464-415b-a5cc-d2a0a8aa136f",
+        "customer_id": "708f0f70-f3e6-43d4-9e41-11c3bc314791"
+      },
+      {
+        "id": "328f7124-8982-4662-9db4-3f06944f55d4",
+        "view_date": "2023-09-13T06:18:25.857Z",
+        "created_at": "2023-09-12T22:06:37.300Z",
+        "updated_at": "2023-09-13T05:13:44.569Z",
+        "ad_campaign_id": "32ba33ed-7e38-40f4-adcd-883db86e5dd1",
+        "customer_id": "98b23386-50c8-4a10-a8b8-56ff281552a5"
+      },
+      {
+        "id": "f29fadad-94e9-4d7e-974c-f2c0a8fa98eb",
+        "view_date": "2023-09-13T09:23:29.808Z",
+        "created_at": "2023-09-13T04:12:42.933Z",
+        "updated_at": "2023-09-13T06:43:23.614Z",
+        "ad_campaign_id": "94fb64ff-db0a-4639-b88e-0b9541e14d46",
+        "customer_id": "eea2f9fa-53f4-49e5-9832-a3b7f65216ad"
+      },
+      {
+        "id": "9bb85293-6ae0-4801-b1ea-4ac9dad938b1",
+        "view_date": "2023-09-12T10:33:34.791Z",
+        "created_at": "2023-09-13T06:58:10.093Z",
+        "updated_at": "2023-09-13T06:55:48.584Z",
+        "ad_campaign_id": "a760e849-bb00-45ff-b18e-2a3bdc832ae0",
+        "customer_id": "98b23386-50c8-4a10-a8b8-56ff281552a5"
+      },
+      {
+        "id": "7de56e52-7ddb-48cd-bcd9-babafbc52dd3",
+        "view_date": "2023-09-12T14:46:25.831Z",
+        "created_at": "2023-09-12T11:16:35.256Z",
+        "updated_at": "2023-09-13T00:57:18.739Z",
+        "ad_campaign_id": "32ba33ed-7e38-40f4-adcd-883db86e5dd1",
+        "customer_id": "5f077ae4-951a-4c76-82eb-e49c44035b40"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8f8fb64e-e219-4690-b120-8a2eca7b04f4",
+        "email": "Chance.Kerluke92@yahoo.com",
+        "firstName": "Howard",
+        "lastName": "Hodkiewicz-Leuschke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49695823",
+        "tenantId": null
+      },
+      {
+        "reference": "ff6bc83e-b232-4d79-8b5b-a79fe0205ed7",
+        "email": "Jordan.Morar14@hotmail.com",
+        "firstName": "Hazle",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17686251",
+        "tenantId": null
+      },
+      {
+        "reference": "325a4787-e3a3-428e-96ae-5fed0633c33b",
+        "email": "Grady_Willms@hotmail.com",
+        "firstName": "Reymundo",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/758.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "91ed7cfb-86f2-4e7d-98c9-6971763341bc",
+        "email": "Sheila_Wintheiser71@hotmail.com",
+        "firstName": "Caitlyn",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65683176",
+        "tenantId": null
+      },
+      {
+        "reference": "60e9587c-4154-4ad0-b86f-897571bded8c",
+        "email": "Ruben.Bruen@yahoo.com",
+        "firstName": "Gerhard",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35334502",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "3da0465c-e9ea-49fe-952f-cfdfbf2e721d",
+        "first_name": "Alex",
+        "last_name": "Anderson",
+        "email": "alex.anderson@gmail.com",
+        "created_at": "2023-09-12T19:43:34.375Z",
+        "updated_at": "2023-09-12T13:43:36.280Z"
+      },
+      {
+        "id": "62598ed2-8a6e-4305-a355-d58040faae6c",
+        "first_name": "Emily",
+        "last_name": "Taylor",
+        "email": "emily.taylor@yahoo.com",
+        "created_at": "2023-09-12T22:58:22.985Z",
+        "updated_at": "2023-09-13T04:18:52.738Z"
+      },
+      {
+        "id": "b4f3d93c-e411-4fb7-a7b8-76d81a6a128c",
+        "first_name": "Daniel",
+        "last_name": "Robinson",
+        "email": "daniel.robinson@hotmail.com",
+        "created_at": "2023-09-12T19:39:47.503Z",
+        "updated_at": "2023-09-12T10:54:53.589Z"
+      },
+      {
+        "id": "07b3f1fd-95d4-4c8f-a6a8-fef165caaa1b",
+        "first_name": "Olivia",
+        "last_name": "Walker",
+        "email": "olivia.walker@gmail.com",
+        "created_at": "2023-09-12T19:21:55.584Z",
+        "updated_at": "2023-09-12T13:32:16.163Z"
+      },
+      {
+        "id": "f00bd9aa-90cc-485f-a4bb-d4cc714e2acc",
+        "first_name": "Sophia",
+        "last_name": "Harris",
+        "email": "sophia.harris@yahoo.com",
+        "created_at": "2023-09-13T06:41:20.979Z",
+        "updated_at": "2023-09-12T19:34:37.333Z"
+      }
+    ],
+    "ad_platform": [
+      {
+        "id": "8766af07-4ef5-435d-b581-81bca723a52e",
+        "name": "Google Ads",
+        "created_at": "2023-09-12T15:31:43.205Z",
+        "updated_at": "2023-09-13T09:06:37.683Z"
+      },
+      {
+        "id": "d673f439-687c-49a4-85d8-a34315f36538",
+        "name": "Facebook Ads",
+        "created_at": "2023-09-13T05:28:11.018Z",
+        "updated_at": "2023-09-12T17:38:48.874Z"
+      },
+      {
+        "id": "ca5703a3-f396-4a75-b215-0e393490648b",
+        "name": "Instagram Ads",
+        "created_at": "2023-09-12T16:25:17.910Z",
+        "updated_at": "2023-09-12T11:20:34.828Z"
+      },
+      {
+        "id": "4a956512-8122-4473-8022-265974d06bd9",
+        "name": "Twitter Ads",
+        "created_at": "2023-09-12T15:31:17.378Z",
+        "updated_at": "2023-09-13T07:23:30.349Z"
+      },
+      {
+        "id": "58d35cb3-638a-402d-888e-64914eb79fcf",
+        "name": "LinkedIn Ads",
+        "created_at": "2023-09-12T12:03:10.024Z",
+        "updated_at": "2023-09-13T05:17:05.797Z"
+      }
+    ],
+    "ad_campaign": [
+      {
+        "id": "e6cb1100-f948-4e0a-85ab-a7bea98cba7e",
+        "name": "Summer Sale",
+        "start_date": "2023-09-13T01:18:10.627Z",
+        "end_date": "2023-09-13T00:02:10.067Z",
+        "created_at": "2023-09-13T05:22:37.364Z",
+        "updated_at": "2023-09-13T01:20:29.454Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "ca5703a3-f396-4a75-b215-0e393490648b"
+      },
+      {
+        "id": "58c614ec-51f5-4fc9-ab0e-0b7744abc11e",
+        "name": "Holiday Promotion",
+        "start_date": "2023-09-13T00:11:10.935Z",
+        "end_date": "2023-09-12T19:50:38.256Z",
+        "created_at": "2023-09-12T18:18:19.192Z",
+        "updated_at": "2023-09-12T19:58:14.935Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "8766af07-4ef5-435d-b581-81bca723a52e"
+      },
+      {
+        "id": "3d8b3db4-de05-454b-b195-bdd00f697d58",
+        "name": "New Product Launch",
+        "start_date": "2023-09-12T11:40:40.310Z",
+        "end_date": "2023-09-13T00:02:50.026Z",
+        "created_at": "2023-09-12T11:20:12.336Z",
+        "updated_at": "2023-09-12T22:25:56.956Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "4a956512-8122-4473-8022-265974d06bd9"
+      },
+      {
+        "id": "2b40ae0e-e303-4849-b9fe-f0042a591d40",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-09-13T08:20:31.218Z",
+        "end_date": "2023-09-12T20:33:33.467Z",
+        "created_at": "2023-09-12T20:17:14.086Z",
+        "updated_at": "2023-09-13T04:47:16.044Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "58d35cb3-638a-402d-888e-64914eb79fcf"
+      },
+      {
+        "id": "8b134eef-586d-4daf-8e8b-0ed3d9806db3",
+        "name": "Black Friday Deals",
+        "start_date": "2023-09-12T10:06:55.142Z",
+        "end_date": "2023-09-13T09:13:35.223Z",
+        "created_at": "2023-09-12T21:45:21.066Z",
+        "updated_at": "2023-09-12T17:24:07.604Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "8766af07-4ef5-435d-b581-81bca723a52e"
+      }
+    ],
+    "customer_ad_view": [
+      {
+        "id": "70935dfe-b586-419a-9ca6-b7ec0ae5ff1f",
+        "view_date": "2023-09-12T22:21:18.856Z",
+        "created_at": "2023-09-13T03:45:23.015Z",
+        "updated_at": "2023-09-13T04:54:31.990Z",
+        "ad_campaign_id": "58c614ec-51f5-4fc9-ab0e-0b7744abc11e",
+        "customer_id": "f00bd9aa-90cc-485f-a4bb-d4cc714e2acc"
+      },
+      {
+        "id": "51c4fdbf-e344-4821-8e77-0e1d2a19dfd3",
+        "view_date": "2023-09-13T01:32:48.500Z",
+        "created_at": "2023-09-12T22:59:01.810Z",
+        "updated_at": "2023-09-13T07:24:28.739Z",
+        "ad_campaign_id": "3d8b3db4-de05-454b-b195-bdd00f697d58",
+        "customer_id": "07b3f1fd-95d4-4c8f-a6a8-fef165caaa1b"
+      },
+      {
+        "id": "1b3c7887-678f-4147-bff4-1de64376386a",
+        "view_date": "2023-09-13T07:38:29.100Z",
+        "created_at": "2023-09-13T09:57:52.743Z",
+        "updated_at": "2023-09-12T18:46:38.866Z",
+        "ad_campaign_id": "8b134eef-586d-4daf-8e8b-0ed3d9806db3",
+        "customer_id": "07b3f1fd-95d4-4c8f-a6a8-fef165caaa1b"
+      },
+      {
+        "id": "30112ab5-56df-4c21-a704-5c777161f859",
+        "view_date": "2023-09-12T10:16:26.380Z",
+        "created_at": "2023-09-12T11:14:20.674Z",
+        "updated_at": "2023-09-13T05:48:43.550Z",
+        "ad_campaign_id": "3d8b3db4-de05-454b-b195-bdd00f697d58",
+        "customer_id": "3da0465c-e9ea-49fe-952f-cfdfbf2e721d"
+      },
+      {
+        "id": "cc37d602-f7fa-4ebc-9dfd-1f9aab8c6e3c",
+        "view_date": "2023-09-12T16:31:19.413Z",
+        "created_at": "2023-09-12T12:46:41.050Z",
+        "updated_at": "2023-09-12T22:31:56.006Z",
+        "ad_campaign_id": "e6cb1100-f948-4e0a-85ab-a7bea98cba7e",
+        "customer_id": "62598ed2-8a6e-4305-a355-d58040faae6c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6fa67829-21a1-4ed1-a11b-7c58537c1354",
+        "email": "Sanford57@yahoo.com",
+        "firstName": "Hulda",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55244109",
+        "tenantId": null
+      },
+      {
+        "reference": "3e637d88-d77f-4320-b069-01f8b25f0071",
+        "email": "Edyth16@hotmail.com",
+        "firstName": "Malcolm",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/228.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5158e04d-be58-40ca-b1c4-cd533512c121",
+        "email": "Jeffry35@gmail.com",
+        "firstName": "Elmira",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28739805",
+        "tenantId": null
+      },
+      {
+        "reference": "ac5d5d46-273b-4289-8a65-464c1416d211",
+        "email": "Keyshawn77@hotmail.com",
+        "firstName": "Tierra",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3083973",
+        "tenantId": null
+      },
+      {
+        "reference": "b06d17fb-8c54-4b2f-952a-81cd05a1c674",
+        "email": "Carley_Kovacek14@hotmail.com",
+        "firstName": "Raven",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9778214",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "b5bb3de4-3182-40c9-96eb-9bf582c14420",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "email": "alice.johnson@example.com",
+        "created_at": "2023-09-12T15:01:47.077Z",
+        "updated_at": "2023-09-12T22:20:41.377Z"
+      },
+      {
+        "id": "8c1cf72a-8f3e-4406-b9f3-4bf5ca3fef1d",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "email": "bob.smith@example.com",
+        "created_at": "2023-09-12T13:30:35.516Z",
+        "updated_at": "2023-09-13T07:49:21.110Z"
+      },
+      {
+        "id": "855eea65-1a4d-481f-9a21-e2529f2dad6c",
+        "first_name": "Eve",
+        "last_name": "Brown",
+        "email": "eve.brown@example.com",
+        "created_at": "2023-09-13T01:54:00.185Z",
+        "updated_at": "2023-09-13T01:04:22.835Z"
+      },
+      {
+        "id": "aa4c5b37-9d6d-4b45-97e5-5dafeb3ab4d0",
+        "first_name": "Charlie",
+        "last_name": "Jones",
+        "email": "charlie.jones@example.com",
+        "created_at": "2023-09-13T02:36:22.455Z",
+        "updated_at": "2023-09-12T11:33:36.997Z"
+      },
+      {
+        "id": "21637a46-a027-4112-9da4-f07930b8540c",
+        "first_name": "Grace",
+        "last_name": "Wilson",
+        "email": "grace.wilson@example.com",
+        "created_at": "2023-09-12T13:03:12.423Z",
+        "updated_at": "2023-09-13T05:24:43.976Z"
+      }
+    ],
+    "ad_platform": [
+      {
+        "id": "62fe6efe-dd7c-4b8c-97cf-f15ec704a01d",
+        "name": "Google Ads",
+        "created_at": "2023-09-13T08:40:44.319Z",
+        "updated_at": "2023-09-13T04:06:08.656Z"
+      },
+      {
+        "id": "450aab3c-7de2-45bb-8c01-c50d6921877b",
+        "name": "Facebook Ads",
+        "created_at": "2023-09-12T10:37:16.887Z",
+        "updated_at": "2023-09-13T09:41:16.931Z"
+      },
+      {
+        "id": "241dd4f5-92b8-4523-8b96-e4b5b4c1ba5f",
+        "name": "Instagram Ads",
+        "created_at": "2023-09-12T22:21:31.420Z",
+        "updated_at": "2023-09-13T08:18:20.316Z"
+      },
+      {
+        "id": "4816bfa6-f82e-4819-9f0e-2f089456afc5",
+        "name": "Twitter Ads",
+        "created_at": "2023-09-12T17:51:13.647Z",
+        "updated_at": "2023-09-13T07:46:09.962Z"
+      },
+      {
+        "id": "77882aa2-cf2e-4afe-91a9-c0edb93e3aa4",
+        "name": "LinkedIn Ads",
+        "created_at": "2023-09-12T15:56:38.920Z",
+        "updated_at": "2023-09-13T04:15:01.367Z"
+      }
+    ],
+    "ad_campaign": [
+      {
+        "id": "4004b5eb-83cf-49dd-9629-6270bd7effe3",
+        "name": "Summer Sale",
+        "start_date": "2023-09-12T20:53:42.988Z",
+        "end_date": "2023-09-12T10:45:47.191Z",
+        "created_at": "2023-09-12T20:51:53.069Z",
+        "updated_at": "2023-09-12T20:49:20.076Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "62fe6efe-dd7c-4b8c-97cf-f15ec704a01d"
+      },
+      {
+        "id": "6539cf99-7cd4-4760-8e43-6d78f3e49122",
+        "name": "Holiday Special",
+        "start_date": "2023-09-12T21:50:08.564Z",
+        "end_date": "2023-09-12T18:45:19.854Z",
+        "created_at": "2023-09-12T11:24:48.041Z",
+        "updated_at": "2023-09-12T17:32:24.669Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "77882aa2-cf2e-4afe-91a9-c0edb93e3aa4"
+      },
+      {
+        "id": "a35246eb-4558-4ff6-bc59-b18241b4d590",
+        "name": "New Product Launch",
+        "start_date": "2023-09-13T00:50:32.354Z",
+        "end_date": "2023-09-12T14:33:10.857Z",
+        "created_at": "2023-09-12T11:27:11.950Z",
+        "updated_at": "2023-09-12T23:30:36.915Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "4816bfa6-f82e-4819-9f0e-2f089456afc5"
+      },
+      {
+        "id": "28d364b6-9b05-4659-912a-fd4d97843e26",
+        "name": "Flash Sale",
+        "start_date": "2023-09-13T02:38:29.450Z",
+        "end_date": "2023-09-13T02:14:41.611Z",
+        "created_at": "2023-09-12T16:00:53.779Z",
+        "updated_at": "2023-09-12T17:42:25.889Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "4816bfa6-f82e-4819-9f0e-2f089456afc5"
+      },
+      {
+        "id": "23336318-8e6b-4a09-8ac2-35a6d84b90ee",
+        "name": "Limited Time Offer",
+        "start_date": "2023-09-12T23:14:23.839Z",
+        "end_date": "2023-09-12T22:52:05.039Z",
+        "created_at": "2023-09-12T22:47:31.905Z",
+        "updated_at": "2023-09-13T06:43:20.731Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "4816bfa6-f82e-4819-9f0e-2f089456afc5"
+      }
+    ],
+    "customer_ad_view": [
+      {
+        "id": "84630b70-fac0-4dae-a35e-ca6a24ed82f6",
+        "view_date": "2023-09-12T18:15:04.893Z",
+        "created_at": "2023-09-13T09:24:39.999Z",
+        "updated_at": "2023-09-12T13:16:46.928Z",
+        "ad_campaign_id": "6539cf99-7cd4-4760-8e43-6d78f3e49122",
+        "customer_id": "8c1cf72a-8f3e-4406-b9f3-4bf5ca3fef1d"
+      },
+      {
+        "id": "ba07d76f-501c-402b-9dfe-87b76495fed5",
+        "view_date": "2023-09-13T05:07:27.297Z",
+        "created_at": "2023-09-13T07:51:04.936Z",
+        "updated_at": "2023-09-13T05:05:19.527Z",
+        "ad_campaign_id": "a35246eb-4558-4ff6-bc59-b18241b4d590",
+        "customer_id": "b5bb3de4-3182-40c9-96eb-9bf582c14420"
+      },
+      {
+        "id": "f23d147f-fd8f-4721-ba7c-40b2de27019b",
+        "view_date": "2023-09-13T07:54:50.030Z",
+        "created_at": "2023-09-12T13:54:20.955Z",
+        "updated_at": "2023-09-13T01:34:44.294Z",
+        "ad_campaign_id": "6539cf99-7cd4-4760-8e43-6d78f3e49122",
+        "customer_id": "b5bb3de4-3182-40c9-96eb-9bf582c14420"
+      },
+      {
+        "id": "0a472d27-8285-4c37-91ac-f0fb9d7024e4",
+        "view_date": "2023-09-13T04:18:30.648Z",
+        "created_at": "2023-09-12T17:35:22.377Z",
+        "updated_at": "2023-09-13T00:23:58.316Z",
+        "ad_campaign_id": "a35246eb-4558-4ff6-bc59-b18241b4d590",
+        "customer_id": "b5bb3de4-3182-40c9-96eb-9bf582c14420"
+      },
+      {
+        "id": "f41bb0d0-bf93-4a2d-b065-b2bf2ed4f535",
+        "view_date": "2023-09-12T17:53:44.619Z",
+        "created_at": "2023-09-13T05:01:33.338Z",
+        "updated_at": "2023-09-13T08:02:14.396Z",
+        "ad_campaign_id": "23336318-8e6b-4a09-8ac2-35a6d84b90ee",
+        "customer_id": "8c1cf72a-8f3e-4406-b9f3-4bf5ca3fef1d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1f29d883-1b16-46f3-b8f5-f4bd5f27e688",
+        "email": "Jazmyn.Kertzmann@hotmail.com",
+        "firstName": "Antonina",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1182.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "18d81d72-af99-4e3a-973d-50bf3298a195",
+        "email": "Dayna21@yahoo.com",
+        "firstName": "Elenora",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1089.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fdce6565-f2c5-4c68-89a9-c61a83b9ba59",
+        "email": "Ed_Walker85@gmail.com",
+        "firstName": "Trever",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/283.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7862b4df-6d60-4f52-a7f0-b37b9c45b18e",
+        "email": "Hayley18@hotmail.com",
+        "firstName": "Korey",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/714.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "de161620-2180-4f80-9990-4c237e328486",
+        "email": "Ferne_Ferry@yahoo.com",
+        "firstName": "Brando",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21625680",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "8628e62b-3100-4930-90c6-060cc4c09b64",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@example.com",
+        "created_at": "2023-09-13T05:40:39.285Z",
+        "updated_at": "2023-09-13T08:10:53.366Z"
+      },
+      {
+        "id": "d382036d-55c2-4278-8171-e190f704b27e",
+        "first_name": "Daniel",
+        "last_name": "Williams",
+        "email": "daniel.williams@example.com",
+        "created_at": "2023-09-13T05:16:18.457Z",
+        "updated_at": "2023-09-13T02:25:18.805Z"
+      },
+      {
+        "id": "54911dbe-89b6-4e11-adb7-4d00a89e4c73",
+        "first_name": "Olivia",
+        "last_name": "Jones",
+        "email": "olivia.jones@example.com",
+        "created_at": "2023-09-12T11:09:16.550Z",
+        "updated_at": "2023-09-12T12:19:20.446Z"
+      },
+      {
+        "id": "3ca8f388-e2c9-4709-b266-ac9b0b5fe010",
+        "first_name": "Jacob",
+        "last_name": "Brown",
+        "email": "jacob.brown@example.com",
+        "created_at": "2023-09-13T04:23:41.913Z",
+        "updated_at": "2023-09-13T09:40:47.965Z"
+      },
+      {
+        "id": "73e815d3-e4dc-4767-8c02-d9a9d323a49c",
+        "first_name": "Sophia",
+        "last_name": "Davis",
+        "email": "sophia.davis@example.com",
+        "created_at": "2023-09-13T08:13:35.138Z",
+        "updated_at": "2023-09-12T22:35:29.147Z"
+      }
+    ],
+    "ad_platform": [
+      {
+        "id": "20ce9d83-9731-42ab-80f6-bdde23a8c58f",
+        "name": "Google Ads",
+        "created_at": "2023-09-13T08:21:14.216Z",
+        "updated_at": "2023-09-13T06:08:15.995Z"
+      },
+      {
+        "id": "01dbcc8c-4745-45ee-b39f-9baa760f97f5",
+        "name": "Facebook Ads",
+        "created_at": "2023-09-12T12:00:07.918Z",
+        "updated_at": "2023-09-12T12:15:07.081Z"
+      },
+      {
+        "id": "4ea0cad0-00b1-4251-b587-31d7094207c6",
+        "name": "Instagram Ads",
+        "created_at": "2023-09-12T19:24:34.626Z",
+        "updated_at": "2023-09-13T00:52:12.874Z"
+      },
+      {
+        "id": "acf796b8-b894-4602-bdf9-65cbfa854705",
+        "name": "LinkedIn Ads",
+        "created_at": "2023-09-13T07:20:35.958Z",
+        "updated_at": "2023-09-13T09:58:58.116Z"
+      },
+      {
+        "id": "c6519905-8e57-419d-ad4e-517aaa34ac0f",
+        "name": "Twitter Ads",
+        "created_at": "2023-09-12T21:21:34.912Z",
+        "updated_at": "2023-09-12T17:39:29.519Z"
+      }
+    ],
+    "ad_campaign": [
+      {
+        "id": "ab2d63c9-0f1f-440f-9dfd-d32040e47448",
+        "name": "Summer Sale",
+        "start_date": "2023-09-12T16:42:41.908Z",
+        "end_date": "2023-09-12T14:08:27.755Z",
+        "created_at": "2023-09-13T05:39:00.272Z",
+        "updated_at": "2023-09-12T12:02:58.523Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "c6519905-8e57-419d-ad4e-517aaa34ac0f"
+      },
+      {
+        "id": "dad26b70-df23-4510-9d30-2b72a3a1578b",
+        "name": "Holiday Promotion",
+        "start_date": "2023-09-12T17:56:35.069Z",
+        "end_date": "2023-09-13T01:47:33.624Z",
+        "created_at": "2023-09-13T03:02:48.323Z",
+        "updated_at": "2023-09-12T11:45:17.859Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "acf796b8-b894-4602-bdf9-65cbfa854705"
+      },
+      {
+        "id": "e8468816-e1e0-453c-bb04-e575abc1477c",
+        "name": "New Product Launch",
+        "start_date": "2023-09-12T19:12:33.103Z",
+        "end_date": "2023-09-12T10:41:35.471Z",
+        "created_at": "2023-09-12T17:13:12.473Z",
+        "updated_at": "2023-09-12T13:20:44.024Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "4ea0cad0-00b1-4251-b587-31d7094207c6"
+      },
+      {
+        "id": "50423075-fc87-4903-a134-3d7872aaee1a",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-09-13T00:28:41.073Z",
+        "end_date": "2023-09-13T07:12:51.133Z",
+        "created_at": "2023-09-13T05:39:38.148Z",
+        "updated_at": "2023-09-13T03:35:16.496Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "c6519905-8e57-419d-ad4e-517aaa34ac0f"
+      },
+      {
+        "id": "7d08f380-2338-42f9-94fe-abeb1661ad1c",
+        "name": "End of Year Clearance",
+        "start_date": "2023-09-12T21:42:28.134Z",
+        "end_date": "2023-09-12T15:10:42.231Z",
+        "created_at": "2023-09-12T22:21:48.591Z",
+        "updated_at": "2023-09-12T22:01:36.661Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "acf796b8-b894-4602-bdf9-65cbfa854705"
+      }
+    ],
+    "customer_ad_view": [
+      {
+        "id": "6f63e84b-d34f-4991-a45e-76a62f15d38d",
+        "view_date": "2023-09-13T01:16:41.196Z",
+        "created_at": "2023-09-13T08:43:43.903Z",
+        "updated_at": "2023-09-13T00:40:05.342Z",
+        "ad_campaign_id": "7d08f380-2338-42f9-94fe-abeb1661ad1c",
+        "customer_id": "73e815d3-e4dc-4767-8c02-d9a9d323a49c"
+      },
+      {
+        "id": "6a2e2422-f312-47e6-86c4-dc78b6af8b8e",
+        "view_date": "2023-09-13T07:52:03.623Z",
+        "created_at": "2023-09-13T02:42:32.074Z",
+        "updated_at": "2023-09-13T03:38:27.651Z",
+        "ad_campaign_id": "dad26b70-df23-4510-9d30-2b72a3a1578b",
+        "customer_id": "8628e62b-3100-4930-90c6-060cc4c09b64"
+      },
+      {
+        "id": "84ce05d3-4452-4661-b0b9-58b26b8d7182",
+        "view_date": "2023-09-13T04:14:22.953Z",
+        "created_at": "2023-09-13T00:03:46.715Z",
+        "updated_at": "2023-09-12T12:47:07.228Z",
+        "ad_campaign_id": "ab2d63c9-0f1f-440f-9dfd-d32040e47448",
+        "customer_id": "54911dbe-89b6-4e11-adb7-4d00a89e4c73"
+      },
+      {
+        "id": "f3b9d993-3b66-4435-b16d-091129df6773",
+        "view_date": "2023-09-13T07:35:23.434Z",
+        "created_at": "2023-09-13T03:12:21.025Z",
+        "updated_at": "2023-09-12T20:59:23.954Z",
+        "ad_campaign_id": "7d08f380-2338-42f9-94fe-abeb1661ad1c",
+        "customer_id": "73e815d3-e4dc-4767-8c02-d9a9d323a49c"
+      },
+      {
+        "id": "5e020a44-aa15-49d3-9505-2c2c362d30a7",
+        "view_date": "2023-09-12T11:15:54.547Z",
+        "created_at": "2023-09-12T10:38:57.295Z",
+        "updated_at": "2023-09-12T20:18:26.933Z",
+        "ad_campaign_id": "dad26b70-df23-4510-9d30-2b72a3a1578b",
+        "customer_id": "8628e62b-3100-4930-90c6-060cc4c09b64"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "84d27493-cdf2-451b-91d2-5d2c814b021e",
+        "email": "Frederique.DuBuque@hotmail.com",
+        "firstName": "Earlene",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1200.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dc603eb1-8e4f-473e-8853-eda012993403",
+        "email": "Reed_Ratke83@gmail.com",
+        "firstName": "Noemi",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/637.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7d0978c8-2cef-4ce1-b2fe-6156ba1d2bcc",
+        "email": "Zachery_Harvey41@yahoo.com",
+        "firstName": "Toney",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87473973",
+        "tenantId": null
+      },
+      {
+        "reference": "0f496b3a-48f3-4320-8f90-9c82cd4e2912",
+        "email": "Ena.Hagenes-Larkin@yahoo.com",
+        "firstName": "Bryana",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1191.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "80576bea-05dd-4f8b-9d17-072a99a69ba9",
+        "email": "Sylvan13@yahoo.com",
+        "firstName": "Hubert",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/140.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "6ed26358-625a-456d-a58b-8d4d5da0a4dc",
+        "first_name": "David",
+        "last_name": "Johnson",
+        "email": "david.johnson@example.com",
+        "created_at": "2023-09-13T02:54:04.307Z",
+        "updated_at": "2023-09-13T06:27:57.468Z"
+      },
+      {
+        "id": "2f4daf43-aa18-4fbe-90ed-cd7100861030",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "email": "emily.anderson@example.com",
+        "created_at": "2023-09-12T12:05:55.039Z",
+        "updated_at": "2023-09-12T10:58:05.835Z"
+      },
+      {
+        "id": "bafbcdaf-2f7b-4537-acda-a88a1d401227",
+        "first_name": "Daniel",
+        "last_name": "Thompson",
+        "email": "daniel.thompson@example.com",
+        "created_at": "2023-09-12T16:51:43.447Z",
+        "updated_at": "2023-09-12T15:01:32.247Z"
+      },
+      {
+        "id": "002f1f10-00ef-443f-8405-daf68b0b02bd",
+        "first_name": "Olivia",
+        "last_name": "Robinson",
+        "email": "olivia.robinson@example.com",
+        "created_at": "2023-09-13T05:57:17.444Z",
+        "updated_at": "2023-09-12T12:29:19.369Z"
+      },
+      {
+        "id": "65f5afd4-20b7-4b20-b91b-bd1ff85997bf",
+        "first_name": "Sophia",
+        "last_name": "Harris",
+        "email": "sophia.harris@example.com",
+        "created_at": "2023-09-12T19:23:17.508Z",
+        "updated_at": "2023-09-12T12:16:54.714Z"
+      }
+    ],
+    "ad_platform": [
+      {
+        "id": "bea6191a-6c93-4e36-b1af-96f970ed37a2",
+        "name": "Google Ads",
+        "created_at": "2023-09-13T04:12:35.303Z",
+        "updated_at": "2023-09-12T13:30:53.828Z"
+      },
+      {
+        "id": "8a3cc6e0-52cc-49fb-9827-c54adbddb6bc",
+        "name": "Facebook Ads",
+        "created_at": "2023-09-13T01:08:08.884Z",
+        "updated_at": "2023-09-13T08:18:35.247Z"
+      },
+      {
+        "id": "4e8f9e95-8afc-429d-bc7c-9dfbcd4a7df1",
+        "name": "Instagram Ads",
+        "created_at": "2023-09-13T05:42:01.400Z",
+        "updated_at": "2023-09-13T06:32:25.708Z"
+      },
+      {
+        "id": "7c0a14f8-33f2-4b88-a3d7-e39fc5471a0a",
+        "name": "LinkedIn Ads",
+        "created_at": "2023-09-12T15:47:12.457Z",
+        "updated_at": "2023-09-12T18:41:07.538Z"
+      },
+      {
+        "id": "8e690a9e-1520-4e81-8ceb-4d37ba47b90e",
+        "name": "Twitter Ads",
+        "created_at": "2023-09-13T04:09:53.633Z",
+        "updated_at": "2023-09-13T02:39:00.754Z"
+      }
+    ],
+    "ad_campaign": [
+      {
+        "id": "e6bcfe06-5f4b-4137-ada7-cc02cfe599d1",
+        "name": "Summer Sale",
+        "start_date": "2023-09-13T03:17:27.416Z",
+        "end_date": "2023-09-13T02:13:29.301Z",
+        "created_at": "2023-09-12T13:07:59.513Z",
+        "updated_at": "2023-09-12T15:44:30.355Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "7c0a14f8-33f2-4b88-a3d7-e39fc5471a0a"
+      },
+      {
+        "id": "6ce07190-40df-47f2-905e-bade1a806aa1",
+        "name": "Product Launch",
+        "start_date": "2023-09-13T00:51:24.534Z",
+        "end_date": "2023-09-13T08:33:36.274Z",
+        "created_at": "2023-09-12T14:36:26.231Z",
+        "updated_at": "2023-09-12T17:20:28.241Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "8e690a9e-1520-4e81-8ceb-4d37ba47b90e"
+      },
+      {
+        "id": "0f1f1b14-b7b8-429f-94ce-ac10898967cf",
+        "name": "Holiday Promotion",
+        "start_date": "2023-09-12T16:14:07.141Z",
+        "end_date": "2023-09-12T14:19:11.758Z",
+        "created_at": "2023-09-12T17:02:00.035Z",
+        "updated_at": "2023-09-12T14:34:48.269Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "bea6191a-6c93-4e36-b1af-96f970ed37a2"
+      },
+      {
+        "id": "a3ee8b66-0145-402c-b00c-3fd7d8054a61",
+        "name": "Brand Awareness",
+        "start_date": "2023-09-12T20:10:34.874Z",
+        "end_date": "2023-09-12T12:10:05.475Z",
+        "created_at": "2023-09-12T14:01:39.214Z",
+        "updated_at": "2023-09-12T20:06:07.558Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "bea6191a-6c93-4e36-b1af-96f970ed37a2"
+      },
+      {
+        "id": "32676efa-2fc9-4707-8342-2aa855db178e",
+        "name": "Lead Generation",
+        "start_date": "2023-09-12T10:55:41.119Z",
+        "end_date": "2023-09-13T01:16:23.516Z",
+        "created_at": "2023-09-12T22:02:11.420Z",
+        "updated_at": "2023-09-13T05:31:49.926Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "bea6191a-6c93-4e36-b1af-96f970ed37a2"
+      }
+    ],
+    "customer_ad_view": [
+      {
+        "id": "ac6f08f2-1aff-4363-9b04-725867588cdf",
+        "view_date": "2023-09-13T01:16:21.251Z",
+        "created_at": "2023-09-12T13:30:55.302Z",
+        "updated_at": "2023-09-13T01:29:11.404Z",
+        "ad_campaign_id": "0f1f1b14-b7b8-429f-94ce-ac10898967cf",
+        "customer_id": "65f5afd4-20b7-4b20-b91b-bd1ff85997bf"
+      },
+      {
+        "id": "1486b858-04f9-457a-9d8c-2c857c38d67b",
+        "view_date": "2023-09-12T15:36:55.717Z",
+        "created_at": "2023-09-13T05:06:05.984Z",
+        "updated_at": "2023-09-12T22:21:32.078Z",
+        "ad_campaign_id": "0f1f1b14-b7b8-429f-94ce-ac10898967cf",
+        "customer_id": "6ed26358-625a-456d-a58b-8d4d5da0a4dc"
+      },
+      {
+        "id": "36edb5e8-704d-4efe-8c92-2f253de161d0",
+        "view_date": "2023-09-12T10:43:37.852Z",
+        "created_at": "2023-09-12T23:52:35.656Z",
+        "updated_at": "2023-09-12T20:10:37.434Z",
+        "ad_campaign_id": "32676efa-2fc9-4707-8342-2aa855db178e",
+        "customer_id": "65f5afd4-20b7-4b20-b91b-bd1ff85997bf"
+      },
+      {
+        "id": "0ae5ff61-545b-4520-81bc-020be9adcc6f",
+        "view_date": "2023-09-13T03:24:45.600Z",
+        "created_at": "2023-09-12T20:11:32.928Z",
+        "updated_at": "2023-09-12T14:40:55.873Z",
+        "ad_campaign_id": "6ce07190-40df-47f2-905e-bade1a806aa1",
+        "customer_id": "bafbcdaf-2f7b-4537-acda-a88a1d401227"
+      },
+      {
+        "id": "caf624f8-6e5d-495d-a2bb-40d7b821e812",
+        "view_date": "2023-09-12T17:33:07.079Z",
+        "created_at": "2023-09-12T23:49:18.195Z",
+        "updated_at": "2023-09-13T00:25:41.947Z",
+        "ad_campaign_id": "32676efa-2fc9-4707-8342-2aa855db178e",
+        "customer_id": "2f4daf43-aa18-4fbe-90ed-cd7100861030"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "80436cc4-7233-44fe-b186-03fda9223560",
+        "email": "Irwin_Bashirian22@yahoo.com",
+        "firstName": "Ewell",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1088.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "59b0f631-5ba4-46d4-8596-a5f920a29f85",
+        "email": "Tiana_Cremin@yahoo.com",
+        "firstName": "Ewald",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/998.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d6f35f61-0120-4cfc-ae30-f3f7d3906b4f",
+        "email": "Della19@hotmail.com",
+        "firstName": "Emilio",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/923.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d7e857c6-e6e6-461a-8abb-66969688d6df",
+        "email": "Fidel_Maggio99@yahoo.com",
+        "firstName": "Lesly",
+        "lastName": "Dare-Lang",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88330729",
+        "tenantId": null
+      },
+      {
+        "reference": "e67ffdee-bc63-4f74-8daf-11d9789e7c88",
+        "email": "Dakota.Collier@yahoo.com",
+        "firstName": "Shaun",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/225.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "50206bd0-e375-46a3-9aa0-8029abf59022",
+        "first_name": "David",
+        "last_name": "Williams",
+        "email": "david.williams@gmail.com",
+        "created_at": "2023-09-12T23:25:27.416Z",
+        "updated_at": "2023-09-12T18:29:22.502Z"
+      },
+      {
+        "id": "d24d9782-da7c-4e50-b8f5-bc096f4b15a4",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@yahoo.com",
+        "created_at": "2023-09-12T11:12:31.922Z",
+        "updated_at": "2023-09-12T13:06:12.887Z"
+      },
+      {
+        "id": "ff24bf4c-5293-4bee-9632-8d680d7c3bf6",
+        "first_name": "Daniel",
+        "last_name": "Miller",
+        "email": "daniel.miller@hotmail.com",
+        "created_at": "2023-09-12T23:59:03.679Z",
+        "updated_at": "2023-09-13T07:36:39.517Z"
+      },
+      {
+        "id": "ab9fd6d7-4601-41c5-8cae-6de071409cd4",
+        "first_name": "Olivia",
+        "last_name": "Anderson",
+        "email": "olivia.anderson@gmail.com",
+        "created_at": "2023-09-13T05:46:51.042Z",
+        "updated_at": "2023-09-12T12:08:39.710Z"
+      },
+      {
+        "id": "663fa8fe-e187-4670-9fab-81226b6cfb6e",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "email": "sophia.taylor@yahoo.com",
+        "created_at": "2023-09-12T13:16:24.603Z",
+        "updated_at": "2023-09-12T14:31:00.640Z"
+      }
+    ],
+    "ad_platform": [
+      {
+        "id": "7681b10b-922d-4a74-8ca3-44bd8e73e750",
+        "name": "Google Ads",
+        "created_at": "2023-09-13T06:20:34.824Z",
+        "updated_at": "2023-09-12T10:30:41.473Z"
+      },
+      {
+        "id": "4f47577f-a9be-41d0-9bfd-4be84535e647",
+        "name": "Facebook Ads",
+        "created_at": "2023-09-12T19:45:01.611Z",
+        "updated_at": "2023-09-12T17:27:01.325Z"
+      },
+      {
+        "id": "e2fe9dcd-0a58-460d-8662-c027b28d8274",
+        "name": "Instagram Ads",
+        "created_at": "2023-09-12T10:44:06.338Z",
+        "updated_at": "2023-09-12T13:54:27.384Z"
+      },
+      {
+        "id": "224a61a6-5115-4f68-bb39-ff3decadca79",
+        "name": "LinkedIn Ads",
+        "created_at": "2023-09-13T08:03:28.454Z",
+        "updated_at": "2023-09-13T04:42:48.153Z"
+      },
+      {
+        "id": "08745f20-1649-455a-8546-2f6caab5bc79",
+        "name": "Twitter Ads",
+        "created_at": "2023-09-12T17:26:15.789Z",
+        "updated_at": "2023-09-12T14:39:43.976Z"
+      }
+    ],
+    "ad_campaign": [
+      {
+        "id": "00fe6b27-3671-4cc3-a3f3-07c2cb0e9ebe",
+        "name": "Summer Sale",
+        "start_date": "2023-09-12T13:26:41.695Z",
+        "end_date": "2023-09-12T17:30:34.682Z",
+        "created_at": "2023-09-12T23:36:29.481Z",
+        "updated_at": "2023-09-12T20:21:32.921Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "e2fe9dcd-0a58-460d-8662-c027b28d8274"
+      },
+      {
+        "id": "5ba402bc-6f63-4385-9aae-acbcad018dc4",
+        "name": "Back to School",
+        "start_date": "2023-09-13T04:11:50.343Z",
+        "end_date": "2023-09-12T22:42:13.924Z",
+        "created_at": "2023-09-12T15:21:15.334Z",
+        "updated_at": "2023-09-12T23:55:51.327Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "08745f20-1649-455a-8546-2f6caab5bc79"
+      },
+      {
+        "id": "60184d6e-4df9-404f-99a3-54a1bfe194af",
+        "name": "Holiday Season",
+        "start_date": "2023-09-12T14:49:10.346Z",
+        "end_date": "2023-09-13T02:57:47.679Z",
+        "created_at": "2023-09-13T03:12:50.977Z",
+        "updated_at": "2023-09-13T05:45:55.533Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "08745f20-1649-455a-8546-2f6caab5bc79"
+      },
+      {
+        "id": "a2e2b82f-0c74-4c75-ab17-4dd7de8e0d91",
+        "name": "New Product Launch",
+        "start_date": "2023-09-13T08:40:37.518Z",
+        "end_date": "2023-09-12T23:48:52.568Z",
+        "created_at": "2023-09-13T05:18:14.420Z",
+        "updated_at": "2023-09-13T05:36:20.588Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "7681b10b-922d-4a74-8ca3-44bd8e73e750"
+      },
+      {
+        "id": "61dfbe19-34f2-4556-8c12-af862920483b",
+        "name": "End of Year Clearance",
+        "start_date": "2023-09-12T14:46:35.621Z",
+        "end_date": "2023-09-12T23:03:49.819Z",
+        "created_at": "2023-09-13T03:33:10.313Z",
+        "updated_at": "2023-09-13T04:02:49.365Z",
+        "client_id": "main_entity_pk",
+        "platform_id": "4f47577f-a9be-41d0-9bfd-4be84535e647"
+      }
+    ],
+    "customer_ad_view": [
+      {
+        "id": "9d4acafd-6757-400f-92be-e50ae6cd50f6",
+        "view_date": "2023-09-13T04:33:22.556Z",
+        "created_at": "2023-09-12T16:00:04.605Z",
+        "updated_at": "2023-09-13T04:11:31.176Z",
+        "ad_campaign_id": "61dfbe19-34f2-4556-8c12-af862920483b",
+        "customer_id": "d24d9782-da7c-4e50-b8f5-bc096f4b15a4"
+      },
+      {
+        "id": "12bb1caf-9dd7-4069-b38d-212668c772b9",
+        "view_date": "2023-09-12T20:51:25.399Z",
+        "created_at": "2023-09-12T21:51:35.285Z",
+        "updated_at": "2023-09-12T20:03:08.563Z",
+        "ad_campaign_id": "60184d6e-4df9-404f-99a3-54a1bfe194af",
+        "customer_id": "ab9fd6d7-4601-41c5-8cae-6de071409cd4"
+      },
+      {
+        "id": "1fbd8fcb-161b-4a2c-9eb5-4cae5e7865be",
+        "view_date": "2023-09-12T13:41:07.240Z",
+        "created_at": "2023-09-12T20:56:57.857Z",
+        "updated_at": "2023-09-12T20:58:34.120Z",
+        "ad_campaign_id": "a2e2b82f-0c74-4c75-ab17-4dd7de8e0d91",
+        "customer_id": "ff24bf4c-5293-4bee-9632-8d680d7c3bf6"
+      },
+      {
+        "id": "d7b4848b-c800-4d75-ac23-3460604d635b",
+        "view_date": "2023-09-12T19:54:27.533Z",
+        "created_at": "2023-09-13T07:42:29.654Z",
+        "updated_at": "2023-09-12T21:02:04.412Z",
+        "ad_campaign_id": "a2e2b82f-0c74-4c75-ab17-4dd7de8e0d91",
+        "customer_id": "ab9fd6d7-4601-41c5-8cae-6de071409cd4"
+      },
+      {
+        "id": "7a5047d9-ce7c-4646-9f19-aeeca9da3fe1",
+        "view_date": "2023-09-12T17:20:52.294Z",
+        "created_at": "2023-09-12T17:48:27.516Z",
+        "updated_at": "2023-09-13T08:20:05.902Z",
+        "ad_campaign_id": "60184d6e-4df9-404f-99a3-54a1bfe194af",
+        "customer_id": "50206bd0-e375-46a3-9aa0-8029abf59022"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ba7d87ff-077e-4c18-a29e-553723efad3f",
+        "email": "Malachi57@hotmail.com",
+        "firstName": "Mireya",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/220.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2303cce3-fc71-489a-b4d0-85cd96521202",
+        "email": "Keegan_DAmore42@gmail.com",
+        "firstName": "Ervin",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4658455",
+        "tenantId": null
+      },
+      {
+        "reference": "17f6dfda-e565-4a08-8a18-8ef075645ae4",
+        "email": "Levi74@hotmail.com",
+        "firstName": "Devonte",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99273178",
+        "tenantId": null
+      },
+      {
+        "reference": "a057046d-af48-4279-a630-da101a4b5ad6",
+        "email": "Arno54@hotmail.com",
+        "firstName": "Lesly",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1118.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0aae963f-e857-468d-be65-fa13cb51abb1",
+        "email": "Abbey.Walsh@gmail.com",
+        "firstName": "Kolby",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24021794",
+        "tenantId": null
+      }
+    ]
+  }
+]

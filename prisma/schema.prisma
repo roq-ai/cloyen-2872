@@ -1,0 +1,77 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model ad_campaign {
+  id               String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name             String             @db.VarChar(255)
+  client_id        String             @db.Uuid
+  platform_id      String             @db.Uuid
+  start_date       DateTime           @db.Date
+  end_date         DateTime           @db.Date
+  created_at       DateTime           @default(now()) @db.Timestamp(6)
+  updated_at       DateTime           @default(now()) @db.Timestamp(6)
+  client           client             @relation(fields: [client_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  ad_platform      ad_platform        @relation(fields: [platform_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  customer_ad_view customer_ad_view[]
+}
+
+model ad_platform {
+  id          String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name        String        @db.VarChar(255)
+  created_at  DateTime      @default(now()) @db.Timestamp(6)
+  updated_at  DateTime      @default(now()) @db.Timestamp(6)
+  ad_campaign ad_campaign[]
+}
+
+model client {
+  id          String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description String?       @db.VarChar(255)
+  name        String        @db.VarChar(255)
+  created_at  DateTime      @default(now()) @db.Timestamp(6)
+  updated_at  DateTime      @default(now()) @db.Timestamp(6)
+  user_id     String        @db.Uuid
+  tenant_id   String        @db.VarChar(255)
+  ad_campaign ad_campaign[]
+  user        user          @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model customer {
+  id               String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  first_name       String             @db.VarChar(255)
+  last_name        String             @db.VarChar(255)
+  email            String             @unique @db.VarChar(255)
+  created_at       DateTime           @default(now()) @db.Timestamp(6)
+  updated_at       DateTime           @default(now()) @db.Timestamp(6)
+  customer_ad_view customer_ad_view[]
+}
+
+model customer_ad_view {
+  id             String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  customer_id    String      @db.Uuid
+  ad_campaign_id String      @db.Uuid
+  view_date      DateTime    @db.Date
+  created_at     DateTime    @default(now()) @db.Timestamp(6)
+  updated_at     DateTime    @default(now()) @db.Timestamp(6)
+  ad_campaign    ad_campaign @relation(fields: [ad_campaign_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  customer       customer    @relation(fields: [customer_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model user {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email       String   @unique @db.VarChar(255)
+  firstName   String?  @db.VarChar(255)
+  lastName    String?  @db.VarChar(255)
+  roq_user_id String   @db.VarChar(255)
+  tenant_id   String   @db.VarChar(255)
+  created_at  DateTime @default(now()) @db.Timestamp(6)
+  updated_at  DateTime @default(now()) @db.Timestamp(6)
+  client      client[]
+}
